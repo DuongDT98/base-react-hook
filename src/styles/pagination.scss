@@ -1,0 +1,16 @@
+.MuiPaginationItem-page.Mui-selected {
+    background-color: #3699ff !important;
+    color: #ffffff;
+    border: none;
+}
+.MuiPaginationItem-page {
+    color: #7e8299;
+    background-color: #f3f6f9 !important;
+    border: none !important;
+
+    &:hover {
+        color: #7e8299;
+        background-color: #e4e6ef !important;
+        border: none;
+    }
+}

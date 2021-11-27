@@ -1,0 +1,50 @@
+.row-tips {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  .infor-tips {
+    height: 100px;
+    margin-top: 100px;
+    padding-left: 20px;
+    .title-tips {
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+}
+.info-header {
+  margin-top: 20%;
+  padding-left: 30px;
+}
+.row-toeic {
+  margin-right: 20px;
+  .title-toeic-test {
+    color: chartreuse;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .time-test {
+    color: black;
+    font-weight: bold;
+  }
+  .address-test {
+    margin-top: -10px;
+  }
+}
+.logo-high {
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.name-high {
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}

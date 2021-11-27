@@ -1,0 +1,258 @@
+.loginPage {
+  display: flex;
+  max-height: 100vh;
+  min-height: 100vh;
+  background: #fdfdfa;
+
+  .error-login {
+    width: fit-content;
+    height: auto;
+    left: 687px;
+    top: 111px;
+    margin-top: 15vh;
+    background: rgba(0, 0, 0, 0.04);
+    padding: 82px 187px;
+    .form-error {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+
+      position: static;
+      width: 343px;
+      height: 310px;
+      left: 0px;
+      top: 0px;
+      background-color: white;
+      border-radius: 20px;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 0px 0px;
+      .title-error {
+        font-family: YOUGO;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #021337;
+      }
+      .des-error {
+        font-family: Be Vietnam Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #021337;
+      }
+      .btn-error-login {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        background: #f9aa1a;
+        border-radius: 10px;
+        width: -webkit-fill-available;
+        height: 52px;
+        width: 200px;
+      }
+    }
+  }
+  .loginImage {
+    position: absolute;
+    width: 400px !important;
+    height: 600px !important;
+    left: 30vh;
+    top: 5vh;
+  }
+  .logo-page {
+    margin-top: 10vh;
+    margin-left: 11vh;
+  }
+  .logo-page-mobile {
+    width: 100%;
+    margin-top: 10vh;
+    margin-left: 15%;
+    margin-bottom: 40px;
+  }
+  .login-image {
+    margin-right: 10px;
+  }
+
+  .login-body {
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    margin-top: 5vh;
+    background: #ffffff;
+    box-shadow: 0px 12px 23px rgba(62, 73, 84, 0.04);
+    border-radius: 5px;
+    .title-login {
+      display: block;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      color: #021337;
+      text-align: center;
+    }
+    .title-email {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4e5a73;
+    }
+    .title-pass {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4e5a73;
+    }
+    .title-hidden-pass {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      color: #2844ce;
+      cursor: pointer;
+    }
+    .btn-login {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 32px;
+      background: #f9aa1a;
+      border-radius: 10px;
+      width: -webkit-fill-available;
+      height: 52px;
+    }
+  }
+
+  .error-login-form {
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    margin-top: 15vh;
+    margin-left: 5vh;
+    background: #ffffff;
+    box-shadow: 0px 12px 23px rgba(62, 73, 84, 0.04);
+    border-radius: 5px;
+    .title-login {
+      display: block;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      color: #021337;
+      text-align: center;
+    }
+    .title-email {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4e5a73;
+    }
+    .title-pass {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4e5a73;
+    }
+    .title-hidden-pass {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      color: #2844ce;
+      cursor: pointer;
+    }
+    .btn-login {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 32px;
+      background: #f9aa1a;
+      border-radius: 10px;
+      width: -webkit-fill-available;
+      height: 52px;
+    }
+  }
+
+  .login-body-mobile {
+    width: 90%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    .title-login {
+      display: block;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      color: #021337;
+      text-align: center;
+    }
+    .title-email {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4e5a73;
+    }
+    .title-pass {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4e5a73;
+    }
+    .title-hidden-pass {
+      font-family: Be Vietnam Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      color: #2844ce;
+      cursor: pointer;
+    }
+    .btn-login {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 32px;
+      background: #f9aa1a;
+      border-radius: 10px;
+      width: -webkit-fill-available;
+      height: 52px;
+    }
+  }
+}
